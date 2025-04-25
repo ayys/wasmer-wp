@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556
+class ComposerStaticInit8596bac655ae4dd63c7efca8b13b5aad
 {
     public static $files = array (
         '3937806105cc8e221b8fa8db5b70d2f2' => __DIR__ . '/..' . '/wp-cli/mustangostang-spyc/includes/functions.php',
@@ -74,10 +74,10 @@ class ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitbc6f81b465c09dd5ac639a969e0da556::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8596bac655ae4dd63c7efca8b13b5aad::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8596bac655ae4dd63c7efca8b13b5aad::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8596bac655ae4dd63c7efca8b13b5aad::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8596bac655ae4dd63c7efca8b13b5aad::$classMap;
 
         }, null, ClassLoader::class);
     }
