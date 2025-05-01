@@ -1,0 +1,5 @@
+.DS_Store
+wp-content
+.direnv
+.envrc
+vendor
